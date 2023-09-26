@@ -19,7 +19,7 @@ private float fowardInput;
         horizontalInput = Input.GetAxis("Horizontal");
         fowardInput = Input.GetAxis("Vertical");
         // Move the vehicle foward
-        transform.Translate(Vector3.forward * Time.deltaTime* speed * fowardInput);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed * fowardInput);
         transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
     }
 }

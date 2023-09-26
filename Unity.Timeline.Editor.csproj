@@ -145,11 +145,11 @@
      <Compile Include="Packages\com.unity.timeline\Editor\Utilities\StyleNormalColorOverride.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Extensions\TrackExtensions.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Manipulators\EditModeInputHandler.cs" />
-     <Compile Include="Packages\com.unity.timeline\Editor\inspectors\ClipInspector\ClipInspector.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Animation\AnimationClipExtensions.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\treeview\TrackGui\TrackResizeHandle.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Manipulators\Move\IMoveItemMode.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\treeview\ManipulationsTracks.cs" />
+     <Compile Include="Packages\com.unity.timeline\Editor\inspectors\ClipInspector\ClipInspector.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Utilities\DisplayNameHelper.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Window\TimelineWindow_PreviewPlayMode.cs" />
      <Compile Include="Packages\com.unity.timeline\Editor\Window\Modes\TimelineMode.cs" />
