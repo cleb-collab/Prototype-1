@@ -8,6 +8,10 @@ public class PlayerController : MonoBehaviour
     public float turnSpeed = 50;
     public float horizontalInput;
     private float verticalInput;
+    public Camera mainCamera;
+    public Camera hoodCamera;
+    public KeyCode space;
+   
     // camera switcher
     
 
@@ -26,5 +30,11 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
         // Turns the car on the Y axis
         transform.Rotate(Vector3.up * Time.deltaTime * turnSpeed * horizontalInput);
+       
+        if(Input.GetKeyDown(space))
+            {
+                mainCamera.enabled = !mainCamera.enabled;
+                hoodCamera.enabled = !hoodCamera.enabled;
+            }
     }
 }
